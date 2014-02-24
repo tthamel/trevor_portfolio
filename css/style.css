@@ -4,7 +4,7 @@ body {
 }
 
 #exp{
-    margin: 1px;
+    margin: 10px;
 }
 
 #blackbar{
@@ -17,4 +17,22 @@ body {
 /*////HEADER////*/
 nav {
 	margin-bottom: 60px;
+}
+
+
+#homepage_background{
+    width:100%;
+
+}
+
+#home-title{
+    float:right;
+}
+
+.navbar-inner{
+    background-color: #ffffff;
+}
+
+.navbar-fixed-top{
+    background-color: #000000;
 }
