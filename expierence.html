@@ -4,39 +4,53 @@
 	<title>Trevor Hamel's Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
 	<link href="css/style.css" rel="stylesheet" media="screen">
 
 </head>
 <body>
-	<div class="container">
-		<div class="navbar">
+	<nav>
+		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
-				<ul class="nav">
-					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="expierence.html">Experience</a></li>
-					<li><a href="education.html">Education</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-				</ul>
+				<div class="container">
+					<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="brand">Trevor Hammel</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li class=""><a href="expierence.html">Experience</a></li>
+							<li class=""><a href="education.html">Education</a></li>
+							<li class=""><a href="portfolio.html">Portfolio</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row-fluid">
+			<div class="jumbotron subhead">
+				<h1> Trevor Hamel | UX - Web Developer</h1>
 			</div>
 		</div>
 	</div>
-
-
-
+	
 	<div class="container">
-
-		
-		<div id="exp" class="span12">
-			<h1> Trevor Hamel | UX - Web Developer</h1>
-		</div>
-&nbsp;
-
-		<div class="span4">
-			<h2>Experience:</h2>
-		</div>
 		<div class="row-fluid">
-			<div class="span8">
-				
+			<div id="exp" class="span12">
+			</div><!-- ./span12 -->
+		</div>
+
+		<div class="row-fluid">
+			<div class="span5">
+				<h2>Experience:</h2>
+			</div><!-- ./span4 -->
+
+			<div class="span7">
 				<div class="accordion" id="accordion2">
 					<div class="accordion-group">
 						<div class="accordion-heading">
@@ -49,101 +63,114 @@
 								<strong>December 2010 - Present</strong>
 
 								<h5>Web Development</h5>
-								<li> Multiple corporate sites and Micro-Sites deployed</li>
-								<li> Front end development utilizing: HTML5, CSS, Wordpress, and Bootstrap</li>
-								<li> MySQL database management and modifications</li>
-								<li> Focus on responsive designs and mobile user engagment</li>
-
+								<ul>
+									<li> Multiple corporate sites and Micro-Sites deployed</li>
+									<li> Front end development utilizing: HTML5, CSS, Wordpress, and Bootstrap</li>
+									<li> MySQL database management and modifications</li>
+									<li> Focus on responsive designs and mobile user engagment</li>
+								</ul>
 								<h5>Web Analytics Including:</h5>
-								<li> Customer capture via web form</li>
-								<li> Google page analytics tracking page views and traffic sources</li>
-								<li> Click/Pageview tracking gathering content engagement and placement effectiveness</li>
-								<li> User based tracking - target marketing/tracking based on user preferences</li>
+								<ul>
+									<li> Customer capture via web form</li>
+									<li> Google page analytics tracking page views and traffic sources</li>
+									<li> Click/Pageview tracking gathering content engagement and placement effectiveness</li>
+									<li> User based tracking - target marketing/tracking based on user preferences</li>
+								</ul>
 
-								<h5>Email Marketing and Template Development</h5> 
-								<li> focus on mobile platforms and responsive designs</li>
+								<h5>Email Marketing and Template Development</h5>
+								<ul>
+									<li> focus on mobile platforms and responsive designs</li>
+								</ul>
 
 								<h5>Collateral Generation</h5>
-								<li> Creative content generation for print and digital advertising and marketing materials</li>
+								<ul>
+									<li> Creative content generation for print and digital advertising and marketing materials</li>
+								</ul>
 
 								<h5>Marketing Reports and Forecasts</h5>
-								<li> Market reports and marketing forecasts based on real-time analytics and market forces</li>
-								<li> Full marketing schedule and budgets with ROI studies </li>
+								<ul>
+									<li> Market reports and marketing forecasts based on real-time analytics and market forces</li>
+									<li> Full marketing schedule and budgets with ROI studies </li>
+								</ul>
 
 								<h5>IT and Systems Administration</h5>
-								<li> Deployed and managed Microsoft Server 2008</li>
-								<li> Deployed and Managed Linux phone server and telecommunications equipment</li>
-								<li> Deployed and managed onsite file back-up and management systems</li>
-								<li> Deployed and managed subversion server and code repositories both onsite and in the cloud</li>
+								<ul>
+									<li> Deployed and managed Microsoft Server 2008</li>
+									<li> Deployed and Managed Linux phone server and telecommunications equipment</li>
+									<li> Deployed and managed onsite file back-up and management systems</li>
+									<li> Deployed and managed subversion server and code repositories both onsite and in the cloud</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-		
-	
 
+				<div class="accordion" id="accordion2">
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+								<h4>Ingram Micro - Creative Production Specialist</h4>
+							</a>
+						</div>
+						<div id="collapseTwo" class="accordion-body collapse in">
+							<div class="accordion-inner">
+								<strong>August 2012 - January 2013</strong>
 
+								<h5>Print to Digital Conversion</h5>
+								<ul>
+									<li> Facilitate conversion from printed ro digital media</li>
+									<li> Review and impliment digital content managment systems</li>
+									<li> Develop new web-based collateral options </li>
+									<li> Develop customer portal/web-interface</li>
+								</ul>
+								<h5>Email Marketing</h5>
+								<ul>
+									<li> Build campaign specific HTML5 based emails</li>
+									<li> Integrate code with tracking analytics software (Silverpop)</li>
+									<li> Optimize HTML for mobile browsers</li>
+								</ul>
 
-			<div class="accordion" id="accordion2">
-				<div class="accordion-group">
-					<div class="accordion-heading">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-							<h4>Ingram Micro - Creative Production Specialist</h4>
-						</a>
+								<h5>Print Content Generation</h5> 
+								<ul>
+									<li> Design and generate collateral for print catelogs and flyers</li>
+									<li> Manage print projects (30K-250K) from conception to execution</li>
+								</ul>
+							</div>
+						</div>
 					</div>
-					<div id="collapseTwo" class="accordion-body collapse in">
-						<div class="accordion-inner">
-							<strong>August 2012 - January 2013</strong>
-
-							<h5>Print to Digital Conversion</h5>
-							<li> Facilitate conversion from printed ro digital media</li>
-							<li> Review and impliment digital content managment systems</li>
-							<li> Develop new web-based collateral options </li>
-							<li> Develop customer portal/web-interface</li>
-
-							<h5>Email Marketing</h5>
-							<li> Build campaign specific HTML5 based emails</li>
-							<li> Integrate code with tracking analytics software (Silverpop)</li>
-							<li> Optimize HTML for mobile browsers</li>
+				</div>
 
 
-							<h5>Print Content Generation</h5> 
-							<li> Design and generate collateral for print catelogs and flyers</li>
-							<li> Manage print projects (30K-250K) from conception to execution</li>
+				<div class="accordion" id="accordion2">
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse3ree">
+								<h4>Rhino Equipment Corp. - Web Development/Technical Support</h4>
+							</a>
+						</div>
+						<div id="collapse3ree" class="accordion-body collapse in">
+							<div class="accordion-inner">
+								<strong>September 2007 - December 2010</strong>
 
+								<h5>Technincal Support and Engineering</h5>
+								<ul>
+									<li>- Assisted customers in diagnosis and setup of telecommunication equipment in Linux environments.</li>
+									<li>- Work with engineers developing and testing Linux code and scripting</li>
+									<li>- Performed system diagnostics and inspection on outgoing Linux servers and telecommunications</li>
+								</ul>
+
+								<h5>Web Development</h5>
+								<ul>
+									<li>- Developed new corporate website utilizing Joomla CMS for back end management</li>
+									<li>- Integrated Google analytic tracking into website for sales and marketing analytics</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-
-			<div class="accordion" id="accordion2">
-				<div class="accordion-group">
-					<div class="accordion-heading">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse3ree">
-							<h4>Rhino Equipment Corp. - Web Development/Technical Support</h4>
-						</a>
-					</div>
-					<div id="collapse3ree" class="accordion-body collapse in">
-						<div class="accordion-inner">
-							<strong>September 2007 - December 2010</strong>
-
-							<h5>Technincal Support and Engineering</h5>
-							<li>- Assisted customers in diagnosis and setup of telecommunication equipment in Linux environments.</li>
-							<li>- Work with engineers developing and testing Linux code and scripting</li>
-							<li>- Performed system diagnostics and inspection on outgoing Linux servers and telecommunications</li>
-
-							<h5>Web Development</h5>
-							<li>- Developed new corporate website utilizing Joomla CMS for back end management</li>
-							<li>- Integrated Google analytic tracking into website for sales and marketing analytics</li>
-
-						</div>
-					</div>
-				</div>
-			</div>
-</div>
-
-</div>
+		</div>
 
 
 
@@ -152,7 +179,7 @@
 
 
 
-			<script src="http://code.jquery.com/jquery.js"></script>
-			<script src="js/bootstrap.min.js"></script>
-		</body>
-		</html>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+	</html>
