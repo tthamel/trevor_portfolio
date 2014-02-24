@@ -3,3 +3,14 @@ body {
     color: #000000;
     background-color: #ffffff;
 }
+
+
+#exp{
+    border-style: solid;
+    margin: 10px;
+    border-color: #222222;
+}
+
+#blackbar{
+    background-color: #ffffff;
+}
