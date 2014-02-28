@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #toptitle {
 	margin-bottom: 10px;
 }
@@ -9,4 +10,43 @@ ul.navigation {
 	margin: 0;
 	padding: 0;
 	display: inline;
+=======
+body {
+    background: #e7e7e7 url("../img/background.svg") 50% 0 no-repeat;
+    background-attachment:fixed;
+}
+
+#exp{
+    margin: 10px;
+}
+
+#blackbar{
+}
+
+.accordion-group {
+	background: #fff;
+}
+
+/*////HEADER////*/
+nav {
+	margin-bottom: 60px;
+}
+
+
+#homepage_background{
+    width:100%;
+
+}
+
+#home-title{
+    float:right;
+}
+
+.navbar-inner{
+    background-color: #ffffff;
+}
+
+.navbar-fixed-top{
+    background-color: #000000;
+>>>>>>> Trevor
 }
